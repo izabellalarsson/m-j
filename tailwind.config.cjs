@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
 	colors: {
-	background: '#F2E3D5'
-	seconndary: '#026773'
-	onBackground: '#3CA6A6'
-	onBackground: '#024959'
-	onBackground: '#3CA6A6'
+	background: '#F2E3D5',
+	seconndary: '#026773',
+	onBackground: '#3CA6A6',
+	onBackground: '#024959',
+	onBackground: '#3CA6A6',
 	}
     },
   },
