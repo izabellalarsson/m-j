@@ -1,45 +1,15 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+  import monstera from './assets/monstera.svg'
 </script>
 
-<main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank"> 
-      <img src="/vite.svg" class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank"> 
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
+<main class="w-screen">
+  <div class="w-full flex justify-center items-end relative mb-36 mt-24">
+       <img class="h-[214px] absolute md:left-auto left-[-21px] bottom-[58px]" src={monstera} alt="Monstera plant" />
+<div class="pb-5 w-full bg-accent flex justify-end items-center h-60 flex-col pr-7">
+<div class="pl-48 md:pl-80">
+<h1 class="text-4xl flex flex-col text-primary">Madeleine <span class="self-center">& Jonas<span></h1>
+<h4 class="text-2xl text-center text-secondary">27.5.2023</h4>
+</div>
+</div>
   </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
 </main>
-
-<style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
-</style>
