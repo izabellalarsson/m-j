@@ -28,7 +28,7 @@
       <p class="text-primary">Mer info kommer inom kort 🥳</p>
     </div>
     <a
-      href="https://forms.gle/naomyrixb7FnChJKA"
+      href="https://docs.google.com/forms/d/e/1FAIpQLScsUx1mpPeYf7NSfDcxdFwG_deFxup3EWyZCVw9vmQ_TXw6Og/viewform?usp=sf_link"
       class="border-2 text-primary border-primary py-2 w-fit justify-self-center px-8 text-center"
       >OSA NU</a
     >
