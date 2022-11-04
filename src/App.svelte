@@ -1,4 +1,10 @@
 <script lang="ts">
+  import Faq from "./lib/FAQ.svelte";
+  import Landing from "./lib/Landing.svelte";
+  import Questions from "./lib/Questions.svelte";
+  import Speech from "./lib/Speech.svelte";
+  import Weddingday from "./lib/Weddingday.svelte";
+  import Where from "./lib/Where.svelte";
   //   var countDownDate = new Date("May 27, 2023 12:00:00").getTime();
   //   var x = setInterval(function() {
   //   var now = new Date().getTime();
@@ -18,21 +24,11 @@
   // }, 1000);
 </script>
 
-<main class="w-screen h-screen bg-secondary">
-  <div
-    class="pb-5 w-full bg-accent grid grid-rows-3 h-full justify-center items-center"
-  >
-    <h4 class="text-2xl text-center text-primary">27.5.2023</h4>
-    <div class="flex flex-col items-center">
-      <h1 class="text-4xl flex flex-col text-primary">Madeleine & Jonas</h1>
-      <p class="text-primary">Mer info kommer inom kort 🥳</p>
-    </div>
-    <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLScsUx1mpPeYf7NSfDcxdFwG_deFxup3EWyZCVw9vmQ_TXw6Og/viewform?usp=sf_link"
-      class="border-2 text-primary border-primary py-2 w-fit justify-self-center px-8 text-center"
-      >OSA NU</a
-    >
-  </div>
-
-  <div class="flex flex-col items-center gap-4" />
+<main class="w-screen bg-secondary grid gap-12">
+  <Landing />
+  <Weddingday />
+  <Speech />
+  <Where />
+  <Faq />
+  <Questions />
 </main>
