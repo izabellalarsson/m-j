@@ -36,10 +36,10 @@
     <h2 class="mb-14 md:mb-28">HITTA HIT</h2>
 
     <section
-      class="grid grid-rows-3 md:grid-cols-3 w-full justify-items-center items-center md:items-end gap-10 text-center"
+      class="grid grid-rows-3 md:grid-cols-3 md:grid-rows-none w-full justify-items-center items-center md:items-end gap-10 text-center"
     >
       {#each data as item}
-        <article class="flex flex-col items-center px-8 pt-2 md:px-40 gap-5">
+        <article class="flex flex-col items-center px-8 pt-2 gap-5">
           <img src={item.icon} class="w-20" />
           <p>{item.title}</p>
           <p class="text-lg">

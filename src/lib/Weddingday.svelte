@@ -4,8 +4,8 @@
 </script>
 
 <Layout>
-  <section class="md:grid grid-rows-2 md:grid-cols-2">
-    <article class="flex flex-col-reverse md:flex-row gap-8 ">
+  <section class="md:grid grid-rows-2 md:grid-cols-2 md:grid-rows-none">
+    <article class="flex flex-col-reverse md:flex-col gap-8 ">
       <h2>BRÖLLOPSDAGEN</h2>
       <img
         {src}

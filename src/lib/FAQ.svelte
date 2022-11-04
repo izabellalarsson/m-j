@@ -35,7 +35,9 @@
 </script>
 
 <Layout>
-  <section class="grid grid-rows-2 md:grid-cols-2 items-center">
+  <section
+    class="grid grid-rows-2 md:grid-rows-none md:grid-cols-2 items-center"
+  >
     <div>
       <h2 class="mb-4">FAQ</h2>
       {#each data as { question, answer }, i}
@@ -50,7 +52,7 @@
 
     <img
       {src}
-      class="w-8/12 mt-10 md:mt-0 m-auto md:ml-auto shadow-squareBox"
+      class="w-8/12 mt-10 md:mt-0 m-auto md:m-0 md:ml-auto shadow-squareBox"
     />
   </section>
 </Layout>
