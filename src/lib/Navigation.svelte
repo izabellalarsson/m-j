@@ -101,7 +101,7 @@
                 href={`#${link.to}`}
                 on:click={handleOnClick}
                 class="text-primary font-black px-3 py-2 rounded-md text-sm"
-                aria-current="page">{link.name}</a
+                aria-current="page"><h3>{link.name}</h3></a
               >
             {/each}
           </div>
@@ -118,7 +118,7 @@
           href={`#${link.to}`}
           on:click={handleOnClick}
           class=" text-primary text-center block px-3 py-2 rounded-md text-base font-black"
-          aria-current="page">{link.name}</a
+          aria-current="page"><h3>{link.name}</h3></a
         >
       {/each}
     </div>

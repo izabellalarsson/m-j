@@ -1,6 +1,6 @@
 <script>
   import Layout from "./Layout.svelte";
-  import src from "../assets/ACS_0759.jpg";
+  import src from "../assets/faq-img.webp";
 
   export const data = [
     {
@@ -42,9 +42,9 @@
       <h2 class="mb-4">FAQ</h2>
       {#each data as { question, answer }, i}
         <article
-          class="bg-primary text-accent rounded p-3 w-fit my-2 flex items-center gap-3 selection:bg-secondary selection:text-primary"
+          class="bg-primary rounded p-3 w-fit my-2 flex items-center gap-3 selection:bg-secondary selection:text-primary"
         >
-          <h4 class="text-xl">{question}</h4>
+          <h4 class="text-xl text-accent">{question}</h4>
           <p class="text-xl text-secondary">{answer}</p>
         </article>
       {/each}
@@ -53,6 +53,7 @@
     <img
       {src}
       class="w-8/12 mt-10 md:mt-0 m-auto md:m-0 md:ml-auto shadow-squareBox"
+      alt="Jonas pussar Madeleine på kinden"
     />
   </section>
 </Layout>

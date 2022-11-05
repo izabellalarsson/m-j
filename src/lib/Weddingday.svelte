@@ -1,6 +1,6 @@
 <script>
   import Layout from "./Layout.svelte";
-  import src from "../assets/IMG_5529.jpeg";
+  import src from "../assets/wedding-img.webp";
 </script>
 
 <Layout id="wedding_day">

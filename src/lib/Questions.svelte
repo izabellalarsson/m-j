@@ -1,6 +1,5 @@
 <script>
   import Layout from "./Layout.svelte";
-  import bgImg from "../assets/IMG_5407.jpeg";
 </script>
 
 <Layout id="questions">
