@@ -3,7 +3,7 @@
   import src from "../assets/IMG_5529.jpeg";
 </script>
 
-<Layout>
+<Layout id="wedding_day">
   <section class="md:grid grid-rows-2 md:grid-cols-2 md:grid-rows-none">
     <article class="flex flex-col-reverse md:flex-col gap-8 ">
       <h2>BRÖLLOPSDAGEN</h2>

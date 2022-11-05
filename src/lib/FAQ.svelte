@@ -34,7 +34,7 @@
   ];
 </script>
 
-<Layout>
+<Layout id="faq">
   <section
     class="grid grid-rows-2 md:grid-rows-none md:grid-cols-2 items-center"
   >
@@ -42,7 +42,7 @@
       <h2 class="mb-4">FAQ</h2>
       {#each data as { question, answer }, i}
         <article
-          class="bg-primary text-accent rounded p-3 w-fit my-2 flex items-center gap-3"
+          class="bg-primary text-accent rounded p-3 w-fit my-2 flex items-center gap-3 selection:bg-secondary selection:text-primary"
         >
           <h4 class="text-xl">{question}</h4>
           <p class="text-xl text-secondary">{answer}</p>

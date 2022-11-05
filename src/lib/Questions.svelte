@@ -3,7 +3,7 @@
   import bgImg from "../assets/IMG_5407.jpeg";
 </script>
 
-<Layout>
+<Layout id="questions">
   <section class="flex flex-col items-end">
     <h2>Övriga frågor</h2>
     <p class="text-right flex flex-col">

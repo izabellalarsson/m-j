@@ -2,7 +2,7 @@
   import Layout from "./Layout.svelte";
 </script>
 
-<Layout>
+<Layout id="landing">
   <section class="grid grid-rows-3 justify-center items-center gap-20">
     <h4 class="text-2xl text-center text-primary">27.5.2023</h4>
     <div class="flex flex-col">

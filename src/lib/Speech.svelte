@@ -2,8 +2,10 @@
   import Layout from "./Layout.svelte";
 </script>
 
-<Layout state="inverted">
-  <article class="grid grid-rows-3 h-full place-items-center gap-10">
+<Layout state="inverted" id="speech">
+  <article
+    class="grid grid-rows-3 h-full place-items-center gap-10 selection:bg-secondary selection:text-primary"
+  >
     <h2 class="text-accent">TAL & SPEX</h2>
     <div>
       <p class="text-white text-center">

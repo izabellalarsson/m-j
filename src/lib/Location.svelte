@@ -31,7 +31,7 @@
   ];
 </script>
 
-<Layout>
+<Layout id="location">
   <section class="text-center">
     <h2 class="mb-14 md:mb-28">HITTA HIT</h2>
 
@@ -40,7 +40,12 @@
     >
       {#each data as item}
         <article class="flex flex-col items-center px-8 pt-2 gap-5">
-          <img src={item.icon} class="w-20" />
+          <img
+            src={item.icon}
+            class="w-20"
+            aria-hidden="true"
+            alt={item.title}
+          />
           <p>{item.title}</p>
           <p class="text-lg">
             {item.description}
