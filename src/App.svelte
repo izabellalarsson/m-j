@@ -4,7 +4,7 @@
   import Questions from "./lib/Questions.svelte";
   import Speech from "./lib/Speech.svelte";
   import Weddingday from "./lib/Weddingday.svelte";
-  import Where from "./lib/Where.svelte";
+  import Location from "./lib/Location.svelte";
   //   var countDownDate = new Date("May 27, 2023 12:00:00").getTime();
   //   var x = setInterval(function() {
   //   var now = new Date().getTime();
@@ -28,7 +28,7 @@
   <Landing />
   <Weddingday />
   <Speech />
-  <Where />
+  <Location />
   <Faq />
   <Questions />
 </main>
