@@ -5,6 +5,7 @@
   import Speech from "./lib/Speech.svelte";
   import Weddingday from "./lib/Weddingday.svelte";
   import Location from "./lib/Location.svelte";
+  import Navigation from "./lib/Navigation.svelte";
   //   var countDownDate = new Date("May 27, 2023 12:00:00").getTime();
   //   var x = setInterval(function() {
   //   var now = new Date().getTime();
@@ -24,7 +25,8 @@
   // }, 1000);
 </script>
 
-<main class="w-screen bg-secondary grid gap-12">
+<main class="w-screen bg-secondary">
+  <Navigation />
   <Landing />
   <Weddingday />
   <Speech />
