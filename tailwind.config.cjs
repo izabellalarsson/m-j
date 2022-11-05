@@ -6,9 +6,13 @@ module.exports = {
       fontFamily: {
         italiana: ['Italiana', 'serif'],
       },
+      boxShadow: {
+        squareBox: '12px 14px #3F5A45',
+      },
       colors: {
-        secondary: '#fffbf6',
-        primary: '#fe502d',
+        secondary: '#FCF7E3',
+        accent: '#F2EDAA',
+        primary: '#3F5A45',
         grey: '#323232',
       },
     },
