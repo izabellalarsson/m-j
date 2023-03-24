@@ -35,9 +35,7 @@
 </script>
 
 <Layout id="faq">
-  <section
-    class="grid grid-rows-2 md:grid-rows-none md:grid-cols-2 items-center"
-  >
+  <section class="grid grid-rows-none md:grid-cols-2 items-center">
     <div>
       <h2 class="mb-4">FAQ</h2>
       {#each data as { question, answer }, i}
