@@ -22,10 +22,6 @@
       to: "faq",
     },
     {
-      name: "Bröllopspresent",
-      to: "wedding-gift",
-    },
-    {
       name: "Övriga frågor",
       to: "questions",
     },
